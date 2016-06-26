@@ -16,15 +16,22 @@
     </url>
 
     <url>
-        <loc>http://learningpro.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8%EF%BC%8C%E6%8A%98%E8%85%BE/</loc>
-        <lastmod>2016-06-26T15:25:16.642Z</lastmod>
+        <loc>http://learningpro.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/</loc>
+        <lastmod>2016-06-26T15:26:55.759Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://learningpro.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C%EF%BC%8C%E6%8A%98%E8%85%BE/</loc>
-        <lastmod>2016-06-26T15:25:50.802Z</lastmod>
+        <loc>http://learningpro.github.io/tags/%E6%8A%98%E8%85%BE/</loc>
+        <lastmod>2016-06-26T15:26:59.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://learningpro.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
+        <lastmod>2016-06-26T15:26:59.081Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
