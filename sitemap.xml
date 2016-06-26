@@ -3,12 +3,17 @@
 
     <sitemap>
         <loc>http://learningpro.github.io/post-sitemap.xml</loc>
-        <lastmod>2016-06-26T14:27:29.434Z</lastmod>
+        <lastmod>2016-06-26T15:01:40.376Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://learningpro.github.io/page-sitemap.xml</loc>
         <lastmod>2016-06-26T14:21:36.980Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://learningpro.github.io/tag-sitemap.xml</loc>
+        <lastmod>2016-06-26T15:01:40.376Z</lastmod>
     </sitemap>
 
 </sitemapindex>
