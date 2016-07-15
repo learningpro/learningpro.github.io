@@ -254,63 +254,6 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-PHP7-0-build-from-source" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/03/PHP7-0-build-from-source/" class="article-date">
-      <time datetime="2016-07-03T05:12:36.000Z" itemprop="datePublished">2016-07-03</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/03/PHP7-0-build-from-source/">PHP7.0 build from source</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h2 id="install-php"><a href="#install-php" class="headerlink" title="install php"></a>install php</h2><h3 id="get-some-library"><a href="#get-some-library" class="headerlink" title="get some library"></a>get some library</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install bzip2 libcurl4-openssl-dev libmcrypt libmcrypt4 libmcrypt-dev libreadline6 libreadline6-dev</span><br><span class="line">wget http://cn2.php.net/distributions/php-7.0.8.tar.gz</span><br></pre></td></tr></table></figure>
-<h3 id="configure-install-options"><a href="#configure-install-options" class="headerlink" title="configure install options"></a>configure install options</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure --enable-bcmath  --enable-calendar --enable-exif --enable-dba --enable-ftp --with-gettext --with-gd --enable-mbstring --with-mcrypt --with-mhash --enable-mysqlnd --with-mysql=mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd --with-openssl --enable-pcntl  --enable-shmop --enable-soap --enable-sockets --enable-sysvmsg --enable-sysvsem --enable-sysvshm --enable-wddx --with-zlib --enable-zip --with-readline --with-curl</span><br></pre></td></tr></table></figure>
-<h3 id="build-and-install-php7"><a href="#build-and-install-php7" class="headerlink" title="build and install php7"></a>build and install php7</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">make</span><br><span class="line">sudo make install</span><br><span class="line">sudo /home/dev/Downloads/php-7.0.8/build/shtool install -c ext/phar/phar.phar /usr/<span class="built_in">local</span>/bin</span><br><span class="line">sudo ln <span class="_">-s</span> <span class="_">-f</span> phar.phar /usr/<span class="built_in">local</span>/bin/phar</span><br></pre></td></tr></table></figure>
-<h2 id="install-composer-reference-here"><a href="#install-composer-reference-here" class="headerlink" title="install composer, reference here"></a>install composer, reference <a href="http://pkg.phpcomposer.com/#how-to-install-composer" target="_blank" rel="external">here</a></h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">php -r <span class="string">"copy('https://getcomposer.org/installer', 'composer-setup.php');"</span></span><br><span class="line">php -r <span class="string">"if (hash_file('SHA384', 'composer-setup.php') === 'bf16ac69bd8b807bc6e4499b28968ee87456e29a3894767b60c2d4dafa3d10d045ffef2aeb2e78827fa5f024fbe93ca2') &#123; echo 'Installer verified'; &#125; else &#123; echo 'Installer corrupt'; unlink('composer-setup.php'); &#125; echo PHP_EOL;"</span></span><br><span class="line">php composer-setup.php</span><br><span class="line">php -r <span class="string">"unlink('composer-setup.php');"</span></span><br><span class="line">sudo mv composer.phar /usr/<span class="built_in">local</span>/bin/composer</span><br><span class="line">composer --version</span><br><span class="line">composer config -g repo.packagist composer https://packagist.phpcomposer.com</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
     <article id="post-HiWiFi极路由变砖重生" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
